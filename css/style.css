@@ -399,11 +399,11 @@ Intro
   color: #fff;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  border: 2px solid #00c1c1;
+  border: 2px solid #c4c117;
 }
 
 #intro .btn-get-started:hover {
-  background: #00c1c1;
+  background: #2a498d
   color: #fff;
   text-decoration: none;
 }
@@ -777,7 +777,7 @@ ul.social-network li {
 
 
 ul.social-network li a:hover span .fa-circle {
-	color: #2b2b2b;
+	color: #3d3d38;
 }
 
 ul.social-network li a i{
@@ -787,7 +787,7 @@ ul.social-network li a i{
 Footer
 ================================= */
 footer {
-	background: #474e4e;
+	background: #c4c117;
 	color: #fff;
 	padding: 50px 0 30px;
 }
