@@ -832,10 +832,14 @@ more media queries
 		margin-bottom: 30px;
 	}
 
+	
+
 	.og-fullimg { display: none; }
 	.og-details { float: none; width: 100%; padding: 0 40px; }
 
 }
+
+
 
 @media (max-width:992px) {
 
