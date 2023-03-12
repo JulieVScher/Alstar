@@ -75,7 +75,7 @@ button {
 	user-select: none;
 }
 button.navbar-toggle {
-	background: #2b2b2b;
+	background: #d4cece;
 	border: none;
 	color: #fff;
 }
@@ -403,7 +403,8 @@ Intro
   color: #fff;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  border: 2px solid #c4c117;
+  border: 2px solid #fdfdfd;
+  background-color: #c4c117
 }
 
 #intro .btn-get-started:hover {
