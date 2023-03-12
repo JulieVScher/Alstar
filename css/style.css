@@ -85,7 +85,7 @@ button.navbar-toggle {
 }
 .btn-theme:hover{
 	background: transparent !important;
-	border-color: #999;
+	border-color: #777676;
 	color: #999;
 }
 

@@ -5,8 +5,8 @@ a, a:hover {
 
 /* Back to top button */
 .back-to-top {
-  background: #c4c117;
-  color: #fff;
+  background: #d4cece;
+  color: #999;
 }
 
 
@@ -16,8 +16,8 @@ a, a:hover {
 }
 
 .back-to-top:hover {
-  background: #72724c;
-  color: #fff;
+  background: #ddd;
+  color: #999
 }
 
 .navbar-default {
