@@ -142,9 +142,9 @@ Navbar
 
 nav.navbar{
 	position: fixed;
-	top: -72px;
+	top: -90px;
 	margin-bottom: 0px;
-	padding: 10px 0px 10px 0px;
+	padding: 10px 0px 0px 0px;
 	width: 100%;
 	border-radius: 0px;
 	transition: all 0.2s;
@@ -185,10 +185,8 @@ nav.navbar.fixed-to-top{
 
 /* brand / logo */
 .navbar-default .navbar-brand{
-	color: #fff;
-	text-transform: uppercase;
-	font-weight: 700;
-	font-size: 2em;
+	height: 80px;
+	padding-top: 0px;
 }
 
 /* ================================
