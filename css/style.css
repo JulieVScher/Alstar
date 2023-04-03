@@ -77,7 +77,7 @@ button {
 button.navbar-toggle {
 	background: #dbad43;
 	border: none;
-	color: #fff;
+	color: #771f22;
 }
 
 .btn-theme,.btn-theme:hover,.btn-theme:focus{
@@ -86,7 +86,7 @@ button.navbar-toggle {
 .btn-theme:hover{
 	background: transparent !important;
 	border-color: #777676;
-	color: #999;
+	color: #771f22;
 }
 
 .htmltext{
@@ -167,7 +167,7 @@ nav.navbar.fixed-to-top{
 }
 
 .navbar-default .navbar-nav>li>a {
-	color: #fff;
+	color: #dbad43;
 	font-weight: 700;
 	text-transform: uppercase;
 }
