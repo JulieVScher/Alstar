@@ -12,13 +12,13 @@ a:hover {
 /* Back to top button */
 .back-to-top {
   background: #dbad43;
-  color: #999;
+  color: #771f22;
 }
 
 
 .back-to-top:focus {
   background: #dbad43;
-  color: #fff;
+  color: #999;
 }
 
 .back-to-top:hover {
