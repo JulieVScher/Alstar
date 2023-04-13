@@ -419,34 +419,34 @@ Intro
 About
 ================================= */
 
-#about .about-img {
+#test .test-img {
   height: 350px;
   overflow: hidden;
 }
 
-#about .about-img img {
+#test .test-img img {
   margin-left: -15px;
   max-width: 100%;
 }
 
 @media (max-width: 768px) {
-  #about .about-img {
+  #test .test-img {
     height: auto;
   }
-  #about .about-img img {
+  #test .test-img img {
     margin-left: 0;
     padding-bottom: 30px;
   }
 }
 
-#about .content h2 {
+#test .content h2 {
   color: #333;
   font-weight: 300;
   font-size: 24px;
   text-align: left;
 }
 
-#about .content h3 {
+#test .content h3 {
   color: #777;
   font-weight: 300;
   font-size: 18px;
@@ -455,12 +455,12 @@ About
   text-align: left;
 }
 
-#about .content p {
+#test .content p {
   line-height: 26px;
   text-align: left;
 }
 
-#about .content p:last-child {
+#test .content p:last-child {
   margin-bottom: 0;
 }
 
@@ -796,7 +796,7 @@ Footer
 footer {
 	background: #771f22;
 	color: #fff;
-	padding: 30px 0 5px;
+	padding: 25px 0 5px;
 }
 
 footer a {
