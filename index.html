@@ -464,7 +464,12 @@
             <img src="img/team/1.jpg" alt="" class="img-circle img-responsive" />
             <h4>Julie V. Scher</h4>
             <p><b>Owner, ABA in the GTA Autism Behaviour Therapy</b><br>Board Certified Behaviour Analyst (BCBA®) </p>
-            <button style= "background: #771f22; color: white;" onclick="location.href = 'https://julievscher.com'">Check Out my Personal Website!</button>
+           <button style="background: #771f22; color: #dbad43;"
+    onmouseover="this.style.backgroundColor='#dbad43'; this.style.color='#771f22';"
+    onmouseout="this.style.backgroundColor='#771f22'; this.style.color='#dbad43';"
+    onclick="location.href = 'https://julievscher.com'">
+    Check Out my Personal Website!
+</button>
           </div>
         </div>
       <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3" data-wow-delay="0.3s">
@@ -594,11 +599,16 @@
           </div>
         </div>
   
-        <div class="col-md-4">
-          <div class="contact-widget wow bounceInLeft">
-            <i class="fa fa-map-marker fa-4x"></i>
-            <h3 style="color: #771f22"></h3>Main Office</h3>
-            <p>North York, Ontario<br>Canada</p>
+        <div id="map-section">
+          <div class="col-md-4">
+            <a href="#map-section">
+              <div class="contact-widget wow bounceInLeft">
+                <i class="fa fa-map-marker fa-4x"></i>
+                <h3 style="color: #771f22">Across the GTA</h3>
+                <p>Primary Service Areas</p>
+              </div>
+            </a>
+            <p>Virtual Sessions Available</p>
           </div>
         </div>
   
@@ -659,6 +669,7 @@
     </div>
   </section>
 
+  <div id="map-section">
   <div class="map-container">
     <iframe 
     src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d65174.88217059308!2d-79.43431734296567!3d43.78634847247772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sca!4v1681702214015!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
@@ -673,6 +684,7 @@
     >
     </iframe>
   </div>
+</div>
   <!-- Footer -->
 
   <footer>

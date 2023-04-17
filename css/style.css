@@ -93,6 +93,10 @@ button.navbar-toggle {
 		text-align: left;
 }
 
+.contact-widget i:hover {
+	color: #dbad43;
+  }
+
 /* ================================
 margin, padding
 ================================= */
