@@ -587,6 +587,10 @@ Works
 	width: 350px;
 }
 
+#og-grid li img:hover {
+	opacity: 0.4; /* Set the opacity to 0.7 when the image is hovered */
+  }
+
 .og-grid li > a,
 .og-grid li > a img {
 	border: none;
