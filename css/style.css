@@ -202,7 +202,7 @@ nav.navbar.fixed-to-top{
   }
 .logo-container img {
 	position: absolute;
-	animation: dance 10s ease-in-out infinite;
+	animation: dance 8s ease-in-out infinite;
   }
   
   @keyframes dance {
