@@ -292,11 +292,11 @@ Parallax
 
 
 #parallax1 {
-	background-image: url(../img/parallax/yahooty.jpg);
+	background-image: url(../img/parallax/tooty.jpg);
 	background-repeat: no-repeat;
 }
 #parallax2{
-	background-image: url(../img/parallax/tooty.jpg);
+	background-image: url(../img/parallax/yahooty.jpg);
 	background-repeat: no-repeat;
 }
 
