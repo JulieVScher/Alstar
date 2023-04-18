@@ -292,10 +292,8 @@ Parallax
 
 
 #parallax1 {
-    background-image: url(../img/parallax/tooty.jpg);
+    background-image: url(../img/parallax/tootydark.jpg);
     background-repeat: no-repeat;
-    opacity:2.0;
-   
 }
 
 #parallax2{
