@@ -603,6 +603,8 @@ Works
 	outline: none;
 	display: block;
 	position: relative;
+	max-width: none;
+	max-height: none;
 	height: 350px;
 	width: 350px;
 }
