@@ -294,13 +294,14 @@ Parallax
 #parallax1 {
     background-image: url(../img/parallax/tooty.jpg);
     background-repeat: no-repeat;
-    opacity:1.2;
-    filter: brightness(50%);
+    opacity:2.0;
+   
 }
 
 #parallax2{
 	background-image: url(../img/parallax/yahooty.jpg);
 	background-repeat: no-repeat;
+	opacity:2.5;
 }
 
 
