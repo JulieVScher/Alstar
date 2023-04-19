@@ -32,7 +32,7 @@
 
   
   <!-- Navigation -->
-  <nav class="navbar navbar-default" role="navigation">
+  <nav class="navbar navbar-default" role="navigation" style="position: fixed; top: 0; background-color: #771f22; display: none;" id="my-navbar">
     <div class="container">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -41,17 +41,17 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-
+  
         <!-- Logo text or image -->
         <a class="navbar-brand" href="index.html" style="padding:0px;">
           <img src="img/intro/3.png" style="height:100%">
         </a>
-
+  
       </div>
       <div class="navigation collapse navbar-collapse navbar-ex1-collapse">
         <ul class="nav navbar-nav">
           <li><a href="index.html">Home</a></li>
-          <li><a href="index.html#test">About</a></li>
+          <li><a href="index.html#test">About</a></li> 
           <li><a href="index.html#portfolio">Services</a></li>
           <!-- <li><a href="#portfolio">Works</a></li> -->
           <li><a href="index.html#team">Team</a></li>
@@ -61,49 +61,33 @@
     </div>
   </nav>
 
-  <section id="intro">
+  <!--<section id="intro">
     <div class="intro-container">
       <div id="introCarousel" class="carousel slide carousel-fade" data-ride="carousel">
 
-        <div class="carousel-inner" role="listbox">
+        <div class="carousel-inner" role="listbox"> 
 
-          <!-- Slide 1 -->
+
           <div class="item active">
             <div class="carousel-background"><img src="img/intro/1.jpg" alt=""></div>
             <div class="carousel-container">
+          
               <div class="carousel-content">
                 <h2 class="animated fadeInDown"></h2>
-                <!-- <h3 class="animated fadeInUp">Ontario Autism Program (OAP) Approved Provider</h3>-->
-                <a href="#tandc" class="btn-get-started animated fadeInUp">Terms and Conditions</a>
+                 <h3 class="animated fadeInUp"></h3>
+                <a href="#pp" class="btn-get-started animated fadeInUp">Privacy Policy</a>
               </div>
+
               <div class="carousel-content">
                 <h2 class="animated fadeInDown"></h2>
                  <h3 class="animated fadeInUp"></h3>
                
               </div>
-            </div>
-          </div>
-<!--
-  intro area 
-  <section id="intro">
-    <div class="intro-container">
-      <div id="introCarousel" class="carousel slide carousel-fade" data-ride="carousel">
-
-        <div class="carousel-inner" role="listbox">
-
-       Slide 1 
-          <div class="item active">
-            <div class="carousel-background"><img src="img/intro/1.jpg" alt=""></div>
-            <div class="carousel-container">
-              <div class="carousel-content">
-                <h2 class="animated fadeInDown">ABA Therapy in the GTA Autism Behaviour Therapy</h2>
-                 <h3 class="animated fadeInUp">Ontario Autism Program (OAP) Approved Provider</h3>
-                <a href="#services" class="btn-get-started animated fadeInUp">Services</a>
-              </div>
+            
             </div>
           </div>
 
-        Slide 3 
+       <!-- Slide 3 
            <div class="item">
             <div class="carousel-background"><img src="img/intro/3.jpg" alt=""></div>
             <div class="carousel-container">
@@ -129,7 +113,7 @@
 
          
 
-        </div>
+        
 
         <!--<a class="carousel-control-prev" href="#introCarousel" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon fa fa-angle-left" aria-hidden="true"></span>
@@ -141,17 +125,15 @@
           <span class="sr-only">Next</span>
         </a> -->
 
-      </div>
-    </div>
-  </section>
-
+      
+   
   <!-- About -->
   <section id="about" class="home-section bg-white">
     <div class="container">
       <div class="row">
         <div class="col-md-offset-2 col-md-8">
           <div class="section-heading">
-            <h2>Terms and Conditions</h2>
+            <h2  style="color: #771f22"; >Terms and Conditions</h2>
             <div class="heading-line"></div>
         
 <div class="htmltext" section id="tandc">
@@ -1061,6 +1043,11 @@
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
   <!-- js -->
+  <script>
+    window.onload = function() {
+      document.getElementById("my-navbar").style.display = "block";
+    };
+  </script>
   <script src="js/jquery.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/wow.min.js"></script>
