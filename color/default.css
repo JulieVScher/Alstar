@@ -18,12 +18,12 @@ a:hover {
 
 .back-to-top:focus {
   background: #dbad43;
-  color: #999;
+  color: #771f22;
 }
 
 .back-to-top:hover {
-  background: #ddd;
-  color: #999
+  background: #771f22;
+  color: #dbad43;
 }
 
 .navbar-default {
@@ -31,9 +31,9 @@ a:hover {
 }
 
 .form-control:focus {
-  border-color: #dbad43;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 2px #00c1c1;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 2px #00c1c1;
+  border-color: #771f22;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 2px #771f22;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 2px #771f22;
 }
 
 .service .carousel-indicators .active {
