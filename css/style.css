@@ -357,6 +357,10 @@ Intro
   text-align: center;
 }
 
+#intro .carousel-content {
+	margin-top: -350px;
+  }
+
 #intro h2 {
   color: #fff;
   margin-bottom: 30px;
